@@ -97,6 +97,8 @@ id = "your-kv-namespace-id-here"
 wrangler kv:namespace create "CACHE_KV"
 ```
 
+or follow the instructions [here](https://developers.cloudflare.com/kv/).
+
 This will output a namespace ID. Copy that ID and replace it in `wrangler.toml`.
 
 5. Connect to your Cloudflare account:
@@ -125,6 +127,12 @@ For Cloudflare Workers deployment, set the secret in production:
 
 ```bash
 wrangler secret put GITHUB_PAT
+```
+
+To deploy:
+
+```bash
+npm run deploy
 ```
 
 This will securely store your token in Cloudflare's encrypted secret storage.
