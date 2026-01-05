@@ -198,15 +198,6 @@ The architecture separates concerns cleanly:
 
 Repository indexes are cached for 30 minutes to balance freshness with API rate limits. The system intelligently fetches additional files only when needed, keeping token usage efficient.
 
-## Contributing
-
-Contributions are welcome! If you find bugs or have feature ideas, please open an issue. For code contributions, make sure to:
-
-1. Follow the existing code style
-2. Add appropriate error handling
-3. Test your changes locally
-4. Update documentation if needed
-
 ## License
 
 MIT
