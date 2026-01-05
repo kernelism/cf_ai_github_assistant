@@ -135,8 +135,6 @@ To deploy:
 npm run deploy
 ```
 
-This will securely store your token in Cloudflare's encrypted secret storage.
-
 ## How to Use
 
 ### Step 1: Index a Repository
